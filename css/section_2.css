@@ -1,0 +1,123 @@
+.section_2 {
+	height: 750px;
+	background-color: #54d154;
+}
+
+.section_2 .container {
+	margin: 0 auto;
+}
+
+.section_2 .what_we_do {
+	margin-top: 40px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-weight: lighter;
+	color: #207b20;
+}
+
+.section_2 .what_we_do .title {font-size: 24.54px;}
+.section_2 .what_we_do .text_1 {font-size: 15px;}
+
+.section_2 .what_we_do .title::after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 43px;
+	height: 2px;
+	background-color: #207b20;
+	margin-top: 12px;
+}
+
+.filter_indicator {
+	text-align: center;
+	display: inline-block;
+	font-family: Proxima Nova, sans-serif;
+	font-weight: normal;
+	margin-top: 40px;
+	margin-bottom: 58px;
+}
+
+.filter_indicator_1{
+	width: 122px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #ffffff;
+	color: #2b9b2b;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	border: 1px solid #2b9b2b;
+	padding-right: 14px;
+	border-right: 1px solid #207b20;
+}
+
+.filter_indicator_2{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #ffffff;
+	color: #2b9b2b;
+	right: 10px;
+	position: relative;
+	border: 1px solid #2b9b2b;
+	border-left: 1px solid #207b20;
+}
+
+.filter_indicator_3{
+	width: 70px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #ffffff;
+	color: #2b9b2b;
+	right: 15px;
+	position: relative;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	border: 1px solid #2b9b2b;
+	border-left: 1px solid #207b20;
+}
+
+#filter-01:checked ~ label[for="filter-01"], 
+#filter-02:checked ~ label[for="filter-02"], 
+#filter-03:checked ~ label[for="filter-03"],
+.filter_indicator:hover{ 
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: #2b9b2b;
+  color: #ffffff;
+}
+
+.latestproject_categories input[type="radio"]{display: none;}
+
+.latestproject_categories .container_2 {text-align: center;}
+
+.latestproject_categories {position: relative;}
+
+.latestproject_categories .button{
+	position: absolute;
+	bottom: -328%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-family: Proxima Nova, sans-serif;
+	font-weight: normal;
+	border: none;
+	height: 40px;
+	width: 185px;
+	line-height: 40px;
+	border-radius: 100px;
+	background-color: #2b9b2b;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.latestproject_categories .button:hover {
+	-webkit-transition: all 1000ms cubic-bezier(0.645, 0.045, 0.355, 1);
+	background-color: #ffffff;
+	color: #2b9b2b;
+}
+
+.section_2 .container_img {text-align:  center;}
+
+.section_2 .container_img .img {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}

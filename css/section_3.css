@@ -1,0 +1,29 @@
+.section_3 {
+	height: 345px;
+	background-color: #ffffff;
+}
+
+.section_3 .container {
+	margin: 0 auto;
+}
+
+.section_3 .testimonials {
+	margin-top: 40px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-weight: lighter;
+	color: #828181;
+}
+
+.section_3 .testimonials .title {font-size: 24.54px;}
+.section_2 .testimonials .text_1 {font-size: 15px;}
+
+.section_3 .testimonials .title::after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 43px;
+	height: 2px;
+	background-color: #828181;
+	margin-top: 12px;
+}

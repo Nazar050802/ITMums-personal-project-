@@ -1,0 +1,62 @@
+/*    Подключаем шрифты    */
+@font-face {
+	font-family: 'Proxima Nova';      
+ 	src: url('font/proxima nova/Proxima Nova Bold.ttf'); 
+  	font-weight: bold;            
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';      
+ 	src: url('font/proxima nova/Proxima Nova Regular.ttf'); 
+  	font-weight: normal;            
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NautilusPompilius';      
+ 	src: url('font/NautilusPompilius/NautilusPompiliusRegular.ttf'); 
+  	font-weight: normal;            
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';      
+ 	src: url('font/proxima nova/Proxima Nova Light.ttf');  
+  	font-weight: lighter;            
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';      
+ 	src: url('font/Montserrat/Montserrat Bold.ttf');  
+  	font-weight: bold;            
+  	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';      
+ 	src: url('font/Montserrat/Montserrat Light.ttf');  
+  	font-weight: bold;            
+  	font-style: lighter;
+}
+/*    /Подключаем шрифты    */
+
+.container {width: 1200px;}
+.visually_hidden {font-size: 0;}
+
+/*     Clearfix      */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/*    /Clearfix      */
